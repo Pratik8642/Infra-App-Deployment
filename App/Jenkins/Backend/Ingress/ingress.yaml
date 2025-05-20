@@ -11,9 +11,9 @@ metadata:
     alb.ingress.kubernetes.io/subnets: subnet-07e64332cdafe7bdd, subnet-024c2f2b174c9efec
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/healthcheck-path: /actuator/health
-    #alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
-    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:841162679093:certificate/0f6dd9af-e424-40c0-846b-f3b32f86522e
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
+    # alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
+    # alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:841162679093:certificate/0f6dd9af-e424-40c0-846b-f3b32f86522e
 
     
 spec:
